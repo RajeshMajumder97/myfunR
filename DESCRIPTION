@@ -1,0 +1,24 @@
+Package: myfunR
+Type: Package
+Title: Generate Output Tables for Statistical Significance Tests and
+        Much More.
+Version: 0.1.0
+Author: Rajesh Majumder
+Maintainer: Rajesh Majumder <rajeshnbp9051@gmail.com>
+Description: This package contains some useful functions which  genate output tables that are very frequently use for reporting.
+License: CC0
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: myfunR
+RemoteUsername: RajeshMajumder97
+RemoteRef: HEAD
+RemoteSha: c7e133cc36a86068fc29995af8185a511e65f2c5
+GithubRepo: myfunR
+GithubUsername: RajeshMajumder97
+GithubRef: HEAD
+GithubSHA1: c7e133cc36a86068fc29995af8185a511e65f2c5
+NeedsCompilation: no
+Packaged: 2022-03-26 04:30:13 UTC; rajesh.majumder
+Built: R 4.1.2; ; 2022-03-26 04:30:13 UTC; windows
