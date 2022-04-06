@@ -10,7 +10,7 @@
 #'
 #' @examples x=c(1:10)
 #'   mydescriptive(x)
-mydescriptive=function(x){c(n=length(na.omit(x)),mean=round(mean(x,na.rm=T),2),sd=round(sd(x,na.rm=T),2),median=median(x,na.rm=T),iqr=paste(IQR(x,na.rm=T),"(",round(summary(x)[2],2),",",round(summary(x)[5],2),")",sep=""))}
+mydescriptive=function(x){c(n=length(na.omit(x)),Total=round(sum(x,na.rm=T),2),mean=round(mean(x,na.rm=T),2),sd=round(sd(x,na.rm=T),2),median=median(x,na.rm=T),iqr=paste(round(IQR(x,na.rm=T),2),"(",round(summary(x)[2],2),",",round(summary(x)[5],2),")",sep=""))}
 
 #' mycat
 #'
